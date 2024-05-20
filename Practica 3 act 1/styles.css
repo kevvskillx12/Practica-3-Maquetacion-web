@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+}
+
+.contenedor {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    background: #ADD8E6;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px; /* Bordes redondeados */
+    border: 2px solid #333; /* Bordes notorios */
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+    color: red;
+}
+
+header p {
+    color: #777;
+}
+
+section {
+    margin-bottom: 20px;
+    border: 1px solid #ccc; /* Bordes para cada sección */
+    padding: 10px;
+    border-radius: 5px; /* Bordes redondeados para las secciones */
+    background-color: #f9f9f9; /* Fondo claro para secciones */
+}
+
+section h2 {
+    background: #333;
+    color: white;
+    padding: 10px;
+    margin: -10px -10px 10px -10px; /* Ajustar el margen para el encabezado dentro de la sección */
+    border-bottom: 1px solid #ccc;
+    border-radius: 5px 5px 0 0; /* Bordes redondeados solo en la parte superior */
+}
+
+.informacion-personal .foto-perfil {
+    float: left;
+    width: 270px;
+    height: auto;
+    margin-right: 20px;
+    border: 2px solid #333; /* Añadir un borde a la imagen */
+}
+
+.informacion-personal ul,
+.experiencia ul,
+.educacion ul,
+.habilidades ul,
+.capacidades-tecnicas ul,
+.permiso-conduccion ul,
+.informacion-adicional ul,
+.lengua-materna ul,
+.otros-idiomas ul {
+    list-style: none;
+    padding: 0;
+}
+
+.informacion-personal li,
+.experiencia li,
+.educacion li,
+.habilidades li,
+.capacidades-tecnicas li,
+.permiso-conduccion li,
+.informacion-adicional li,
+.lengua-materna li,
+.otros-idiomas li {
+    margin-bottom: 10px;
+}
+
